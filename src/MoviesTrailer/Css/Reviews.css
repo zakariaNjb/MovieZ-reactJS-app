@@ -1,0 +1,49 @@
+#reviews {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#reviews h2 {
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 10px;
+    color: #E1C562;
+    background-color: #111011;
+}
+
+#reviews::-webkit-scrollbar {
+    display: none;
+}
+
+#reviews main {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.151);
+}
+
+#reviews main div {
+    padding-left: 15px;
+}
+
+#reviews main div li {
+    list-style: none;
+    font-size: 1.1em;
+    color: #E1C562;
+}
+
+#reviews main div p {
+    margin: 0;
+    justify-content: justify;
+    font-size: 0.8em;
+}
+
+#reviews main img {
+    border-radius: 100px;
+    height: 2.8em;
+    width: 2.8em;
+    box-shadow: 1px 1px 10px snow;
+}

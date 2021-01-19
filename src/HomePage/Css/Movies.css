@@ -1,0 +1,47 @@
+#movies {
+    padding: 0px 10px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 215px;
+    grid-gap: 20px;
+    grid-auto-flow: dense;
+}
+
+
+/********I had to grap .single__movie 
+class from SingleMovie.css*/
+
+.single__movie:nth-of-type(1) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.single__movie:nth-of-type(3n+3) {
+    grid-row: span 2;
+}
+
+.single__movie:nth-of-type(5n+5) {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+#movies::-webkit-scrollbar {
+    display: none;
+}
+
+
+/***********Media queries****************/
+
+@media screen and (max-width:558px) {
+    #movies {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width:414px) {
+    #movies {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

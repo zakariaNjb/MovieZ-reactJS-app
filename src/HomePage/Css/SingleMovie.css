@@ -1,0 +1,72 @@
+.single__movie {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.single__movie img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.single__movie__infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.466);
+    transform: translateY(100%);
+    transition-duration: 300ms;
+}
+
+.single__movie:hover .single__movie__infoContainer {
+    transform: translateY(0);
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffd849;
+    padding: 5px 0px;
+}
+
+.rating span {
+    font-size: 1.6em;
+    padding: 0px 5px;
+}
+
+.rating svg {
+    font-size: 2em;
+    padding: 0px 5px;
+}
+
+.movie__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie__name svg,
+.movie__name span {
+    font-weight: bold;
+    text-align: center;
+}
+
+.movie__name svg {
+    color: #ffd849;
+    font-size: 4em;
+}
+
+.movie__name span {
+    font-size: 1.8em;
+}

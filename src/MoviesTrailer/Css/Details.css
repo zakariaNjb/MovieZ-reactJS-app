@@ -1,0 +1,111 @@
+#details {
+    flex-grow: 2;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#name__desc {
+    position: relative;
+}
+
+#name__desc img {
+    width: 100%;
+    height: 200px;
+}
+
+#name__desc div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    top: 0;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.432);
+    background: linear-gradient( #1110114b 2%, #111011);
+}
+
+#name__desc div span {
+    font-size: 1.5em;
+    color: #E1C562;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#name__desc div span li {
+    list-style: none;
+}
+
+#name__desc div span svg {
+    cursor: pointer;
+}
+
+#name__desc div p {
+    text-align: justify;
+    margin: 5px 0px;
+    padding: 0;
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+#name__desc div p::-webkit-scrollbar {
+    display: none;
+}
+
+#details__info {
+    overflow-y: scroll;
+}
+
+#details__info::-webkit-scrollbar {
+    display: none;
+}
+
+#details__info main {
+    display: flex;
+    flex-direction: column;
+}
+
+#details__info main div {
+    box-sizing: border-box;
+    padding: 7px 0px;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#details__info div li {
+    list-style: none;
+    text-align: left;
+    font-size: 1em;
+}
+
+#details__info div li:nth-child(2n) {
+    text-align: right;
+}
+
+#links div {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+#links div a {
+    color: #E1C562;
+    text-decoration: none;
+}
+
+
+/***********Media queries*********/
+
+@media screen and (max-width:375px) {
+    #name__desc img {
+        height: 250px;
+    }
+    #name__desc div p {
+        padding-bottom: 20px;
+    }
+}

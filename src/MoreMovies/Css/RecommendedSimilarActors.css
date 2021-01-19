@@ -1,0 +1,90 @@
+#recommended__similar {
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+#text__recommended__similar {
+    width: 30%;
+    /*****This propably has to be removed in small screen****/
+    padding: 0px 20px;
+}
+
+#text__recommended__similar h2 {
+    font-size: 2em;
+    color: #E1C562;
+    margin: 5px 0px;
+}
+
+#text__recommended__similar p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+#text__recommended__similar div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#text__recommended__similar div svg {
+    cursor: pointer;
+    font-size: 1.1em;
+    padding: 2px;
+    transition-duration: 200ms;
+}
+
+#text__recommended__similar div svg:hover {
+    background-color: #E1C562;
+    border-radius: 100px;
+    color: black;
+}
+
+#movies__section {
+    display: flex;
+    overflow-x: scroll;
+    width: 70%;
+    scroll-behavior: smooth;
+}
+
+#movies__section::-webkit-scrollbar {
+    display: none;
+}
+
+#movies__section .single__movie {
+    height: 310px;
+    border-radius: 0px;
+    min-width: 28%;
+    padding: 0px 10px;
+}
+
+#movies__section .single__movie div {
+    border-radius: 0px;
+}
+
+#movies__section .single__movie:nth-of-type(2n) {
+    position: relative;
+    top: 20px;
+    height: 330px;
+}
+
+#movies__section .single__movie img {
+    border-radius: 0px;
+}
+
+
+/**********Media queries**********/
+
+@media screen and (max-width:414px) {
+    #recommended__similar {
+        display: block;
+        width: 100%;
+    }
+    #text__recommended__similar {
+        width: 100%;
+        box-sizing: border-box;
+        padding-bottom: 20px;
+    }
+    #movies__section {
+        width: 100%;
+    }
+}
