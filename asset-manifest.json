@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MovieZ-reactJS-app/static/css/main.174e5077.chunk.css",
+    "main.js": "/MovieZ-reactJS-app/static/js/main.ec27c510.chunk.js",
+    "main.js.map": "/MovieZ-reactJS-app/static/js/main.ec27c510.chunk.js.map",
+    "runtime-main.js": "/MovieZ-reactJS-app/static/js/runtime-main.316f79d8.js",
+    "runtime-main.js.map": "/MovieZ-reactJS-app/static/js/runtime-main.316f79d8.js.map",
+    "static/js/2.7f239d4b.chunk.js": "/MovieZ-reactJS-app/static/js/2.7f239d4b.chunk.js",
+    "static/js/2.7f239d4b.chunk.js.map": "/MovieZ-reactJS-app/static/js/2.7f239d4b.chunk.js.map",
+    "static/js/3.7951d69a.chunk.js": "/MovieZ-reactJS-app/static/js/3.7951d69a.chunk.js",
+    "static/js/3.7951d69a.chunk.js.map": "/MovieZ-reactJS-app/static/js/3.7951d69a.chunk.js.map",
+    "index.html": "/MovieZ-reactJS-app/index.html",
+    "static/css/main.174e5077.chunk.css.map": "/MovieZ-reactJS-app/static/css/main.174e5077.chunk.css.map",
+    "static/js/2.7f239d4b.chunk.js.LICENSE.txt": "/MovieZ-reactJS-app/static/js/2.7f239d4b.chunk.js.LICENSE.txt",
+    "static/media/RSCMovies.css": "/MovieZ-reactJS-app/static/media/background.71cc9dda.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.316f79d8.js",
+    "static/js/2.7f239d4b.chunk.js",
+    "static/css/main.174e5077.chunk.css",
+    "static/js/main.ec27c510.chunk.js"
+  ]
+}
